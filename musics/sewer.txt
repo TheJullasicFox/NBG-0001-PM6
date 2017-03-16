@@ -1,0 +1,122 @@
+#am4
+;LEVEL HEADER
+$ED $80 $6D $2B 
+$ED $80 $7D $00 
+$F0
+
+
+;Paper Mario: The Thousand-Year Door - "Rogueport Sewers" -Opposable
+;edited by Hadron
+
+#0   w255 t50
+v0c8/
+$EF $04 $EF $EF
+$F2 $D8 $58 $28
+
+#0   @3   q7F v225 y10 
+#1   @3   q7f v185 y10 
+#2        q7f v215 y10
+#3   @22  q7f v215 y10
+#5   @14   q7f v215 y10
+#6        q7f v215 y10
+
+#0
+l16
+o3
+[o2dea>b>g+<b<aedea>bb>g+r8
+o2dea>b>e<b<aedea>bb>er8
+o2dea>b>g+<b<aedea>bb>br8
+o2dea>b>e<b<aedea>bb>dr8]3
+r1^1^1^1^1^1^1^1
+[<def+g+brdef+g+br>drer
+<def+g+brbabg+rer4]4;
+
+
+
+#1r8/
+l16
+r4<dea>b>g+<b<aedea>b
+b>g+r8o2dea>b>e<b<aedea>b
+b>er8o2dea>b>g+<b<aedea>b
+b>br8o2dea>b>e<b<aedea>b
+[b>dr8o2dea>b>g+<b<aedea>b
+b>g+r8o2dea>b>e<b<aedea>b
+b>er8o2dea>b>g+<b<aedea>b
+b>br8o2dea>b>e<b<aedea>b]2
+b>dr1^1^1^1^1^1^1^1^8
+[<def+g+brdef+g+br
+>drer<def+g+brbabg+re
+r4]3
+def+g+brdef+g+br
+>drer<def+g+brbabg+re;
+
+
+
+#2r8/
+r1^1^1^1
+l16
+@13
+o2
+[deedeedeedeedeed
+eedeedeedeedeede
+edeedeedeedeedee]2
+deedeedeedeedeed
+eedeedeedeedeede
+a1
+@14
+o4v80y15aa>v120y5edv160y15c+c+v210y5edv160y15c+c+v120y5edv80y15c+c+v70y5edv60y15c+c+r2^4^8
+[v80y15<aa>v120y5edv160y15c+c+v210y5edv160y15c+c+v120y5edv80y15c+c+v70y5edv60y15c+c+r2^4^8]2
+v80y15<aa>v120y5edv160y15c+c+v210y5edv160y15c+c+v120y5edv80y15c+c+v70y5ed
+@13y10v215
+o2[eedeedeedeedeede]8;
+
+
+
+#3r8/
+l8
+>
+[a+]24
+a+1
+[a+]100
+[a+]84
+[r1]100;
+
+
+
+#5r8/
+l16
+[r1]13
+o4v80y15e>c+v120y5c+fv160y15e<av210y5>c+fv160y15e<av120y5>c+fv80y15e<av70y5>c+fv60y15e<ar2^4^8
+[v80y15e>c+v120y5c+fv160y15e<av210y5>c+fv160y15e<av120y5>c+fv80y15e<av70y5>c+fv60y15e<ar2^4^8]2
+v80y15e>c+v120y5c+fv160y15e<av210y5>c+fv160y15e<av120y5>c+fv80y15e<av70y5>c+fv60y15e<a8
+[r1]100;
+
+
+
+#6r8/
+l8
+o3@21c4@22g+g+g+@21cc@10e
+@22g+4@21c@22g+4@21c@22g+g+
+@21c4@22g+@21cc4@10ee
+e4@22v120g+4v90g+4v60g+4
+o4v255a4o3@10v215e@21c@22g+4@10e4
+@22g+4@10e@22g+16@21c16@22g+@21c@21c@10e
+@22g+4@10e@21c@22g+4@10e4
+@21c@22g+@10e@21cc@22g+@10e@22g+
+o4v255a4o3@10v215e@21c@22g+4@10e4
+@22g+4@10e@22g+16@21c16@22g+@21cc@10e
+@22g+4@10e@21c@22g+4@10e4
+@21c@22g+@10e@21cc@22g+@10e@22g+
+@21c16@10e16@21c16c16@10v160d@21c16c16cc16c16@10v160d@21c16
+[c16c16@10e16@21c16c16@10v160d@21c16c16cc16c16@10v160d@21c16]6
+c16c16@10e16@21c16c16@10v160d@21c16@10e16eeee16
+e16o4v255a4o3v215e@21c@22g+4@10e4
+@22g+4@10e@22g+16@21c16@22g+@21cc@10e
+@22g+4@10e@21c@22g+4@10e4
+@21c@22g+@10e@21cc@22g+@10e@22g+
+o4v255a4o3@10v215e@21c@22g+4@10e4
+@22g+4@10e@22g+16@21c16@22g+@21cc@10e
+@22g+4@10e@21c@22g+4@10e4
+e32e16e32
+[r1]100;
+

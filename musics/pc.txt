@@ -1,0 +1,180 @@
+#amk 2
+
+#SPC
+{
+	#author "----"
+	#title "Petalburg City"
+	#game "Pokemón Emerald"
+	#comment "----"
+}
+
+#samples
+{
+	#default
+	"Crash Cymbal.brr"
+}
+
+#instruments
+{
+	@14 $BE $CE $AB $03 $71;Guitar
+	@0 $9C $A0 $B8 $06 $00;Flute
+	"Crash Cymbal.brr" $ff $f0 $00 $08 $1c
+}
+
+"Vibrato=$DE $20 $0F $5D"
+"Flute=@0 $ED $0B $01 p10,13"
+"Piano=@6 $ED $1F $4A p0,0"
+"Crash=@32 v100"
+
+$EF $9D $3C $28
+$F1 $02 $32 $08
+#0 @8 $ED $1D $01 v140 w225 t52
+
+o2g4g+4a+.g+.g
+/
+g+rd+4grd+4
+frg+4>c16r16c<g+>c
+<a+rg4>c+r<g+4
+gra+4>d+<d+fg
+g+rd+4grd+4
+frg+4>c16r16c<g+>c
+<a+rf4g+rf4
+d+2.r4
+g+r16>c+16r<g+g+2
+fr16a16r>c<f2
+a+r16>d+16r<a+d+2
+<g+2>c+2
+g+16rg+16r16>c16<g+16d+16g+d+eg+
+a16ra16r16>c16<a16f16af>c<f
+a+16r>f16r16<f16g16a16a+fgf
+d+2d+.f.g
+
+#1 Flute v156 y8
+
+o4d+rfrg.g+.a+
+/
+Flute
+g+rg+16a+16g+grg16g+16g
+f2rg+>c+c
+<a+ra+16>c16c+<frf16g16g+
+g4.f16r16d+4.r
+>crc16c+16c<a+ra+16>c16<a+
+g+2rf>cd+
+c+rc+16d+16c+crc16c+16c
+<a+4.>c16r16c+4.
+
+Piano
+o3>v135a+8
+>c2^c8c+8d+8
+c+2^<g+8>c+8<g+8
+a+2^g8g+8a+8
+>c8r8<a+8r8g+8g4.
+
+Flute
+o4d+2^+d+ff+
+f2^cd+f
+c+2^+c+cc+
+<a+r>crc+.c.<a+
+
+#2 Piano y12
+
+r2o3v115d+.f.g
+/
+v115
+g+4d+4g4d+4
+f4c4<g+4>>c+c
+<a+4f4g+4f4
+g4d+4a+d+fc+
+c4c+4d+4g4
+g+4a+4>c4d+4
+c+4c+16d+16c+c4c16c+16c
+<a+4.g+16r16g4v140
+>>cc+
+d+2^d+ff+
+f2^cfc
+c+2^+<a+>cc+
+d+rc+rc<a+4.
+<a+r16a+r16>cr4d+4
+fr16fr16cr4<a4
+a+r16a+r16>fr4<a+4
+gr4.a+.g+.g
+
+#3 @30 v80 l16 y5
+
+r2o4ga+r>d+<gra+>d+<
+/
+d+4r8.>d+<d+4r8.>d+
+<f4>g+8r8g+8c8<g+8f8
+f4r8.>f<f4r8.>f
+<g4>a+8r8a+8g8d+8<a+8
+d+4r8.>d+<d+4r8.>d+
+<f4>g+8r8g+8c8<g+8f8
+f4r8.>fr8f8r8cr
+d+4r4<a+8.rg8.r
+g+8rg+r8g+8g+8g+8d+8g+8
+a8rar8a8a8a8f8a8
+a+8ra+r8>d+8<a+8a+8>c8c+8
+d+8rd+r8d+8<a+8g4d+8
+>ccrcr8crccd+r<d+8.>c
+ccrcr8cr<aa>cr<f8.a
+f4r>frc+<a+r>fr<f8>c+8
+d+4r4g8.f8.d+8
+
+#4 @30 v70 y15 L16
+
+r2o5cd+rg+crd+g+
+/
+<g+8>g+8d+g+8g+d+8g8d+g8g
+<g+8>f8>c<g+8f>c8<g+8d+8c8
+<a+8>a+8fa+8a+f8g+8fg+8g+
+<a+8>d+8>d+<a+8g>d+8<a+8g8<a+8
+g+>d+g+8d+g+8g+d+8g8d+g8g
+<g+8>f8>c<g+8f>c8<g+8d+8c8
+<a+>fa+8fa+8a+f8a+8c8f8
+a+4r4d+8.r<a+8.r
+>d+8rd+r8d+8d+8d+8<g+8>d+8
+f8rfr8f8f8f8c8f8
+c+8rc+r8f8c+8c+8d+8f8
+g+8rg+r8g+8d+8c+4<a+8
+>d+d+rd+r8d+rd+d+g+r<g+>d+g+d+
+ffrfr8frccfr<a>cfc
+c+8fc+fa+8fc+8a+8c+8f8
+g+4r4a+8.g+8.g8
+
+#7 @31 v90 l16
+
+r1/
+[r1]4
+o4g+2>c+32d+4...
+<a+32>c.r8c<a+r>c<g+8c8g+8>c8
+<a+8r8a+>c<a+8f8r8g+a+g+8
+g+4.g+8g4.r1
+[r1]2
+r8
+<<d+2g2
+g+4.>>>c2r8
+c8c+8d+8c4<a8a+8>c8
+<a+2r8f8d+8f8
+d+8r8f8r8g8.f8.d+8
+
+#5 @23 o3 q7f l16
+
+r1/
+(1000)[v133@23g+rg+rv110@24f+rv133@23g+g+g+rg+rf+rg+g+]7
+(1001)[@32a+16^2...]1
+(1000)7
+(1001)1
+
+#6 v150 l16
+
+@21gr@21gr@29gr@21gr
+@29gr@21gr@29gr@29g@29g
+/
+[@21gr8.@29gr@21gr@21gr8.@29gr@21gr]7
+@21gr2r8.@21gr@25g+g+
+g+r8g+r8g+rg+r8.@22g+r8.
+@25g+r8g+r8g+rg+r@22g+r@22g+r8.
+@25g+r8g+r8+rg+r@22g+@22g+@22g+r8.
+@25g+r8g+r8g+rg+rdrdrdd
+[@21gr@21g@21g@29g@22g+@29g@21g@29gr@21gr@29gr@21gr]3
+@21gr4..@29gr@21gr@29gr@29g@29gr1
