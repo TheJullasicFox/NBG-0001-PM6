@@ -1,0 +1,27 @@
+#am4
+;SMAS, SMB1 - Death, (MidiGuy)
+
+#0  	w240 t43
+
+#0o5@3l32y10v220p10,30
+q4F
+{ede}r4
+p10,20
+q7F
+@9y15o4l8v170
+b16>ff16{fed}c4[r1]9
+
+#1o4@9l8y5p10,20
+v170q7F
+r16r4
+g16>dd16{dc<b}l16gerec2[r1]9
+
+#2o2@8l8y10p10,15
+v210q6F
+r16r4
+gr{gab}>c<gc[r1]9
+
+#3o4@12l8y10
+v215q6F
+r16r4
+g-16g-g-16{g-g-g-}l16g-g-rg-g-2[r1]9

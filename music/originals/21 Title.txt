@@ -1,0 +1,90 @@
+#am4
+;-- HEADER AUTOMATICALLY GENERATED --
+$ED $80 $6D $2B
+$ED $80 $7D $00 
+$F0
+;-- END OF HEADER -------------------
+
+#0 w230 t42
+
+v0c4/
+
+$EF $01 $46 $46
+$F1 $02 $32 $01
+
+l8 @0 v210 p10,20 $ED $38 $88
+o5arfr16c16dffd
+gagag4r4
+dgg>c<argr
+a2r2
+arfr16c16dffd
+agag2a
+gaga>c<gaf2^
+r<fgg+
+ar>erd+erc+
+ddef2^
+gdgdgarg2^
+r2^4
+aa+>c4rd
+eded2e
+d4<a+g>cr<er
+f2r2
+r1
+;
+#1 r4/l4 @8 v230
+o2fcfc
+gdgd
+gc8^16g16>c8<a+8a8g8
+f>c<f>c
+<fcfc
+gdgd
+gg8^16g16gc
+fcfc
+<a>eae
+dada
+g>d<g>d
+<cgcg
+fcfc
+da8^16a16>d8c8<b8a8
+g8f8e8d8cg
+fd+dd
+<g>dce
+;
+#2 r4/l16 @3 v225
+o3v125a8v225ar8^ar8^>cr8^cr
+<v125b8v225br8^br8^br8^br
+v125a+8v225a+r8^a+r8^a+r8^a+r
+>v125c8v225cr8^cr8^cr8^cr
+<v125a8v225ar8^ar8^ar8^ar
+v125b8v225br8^br8^br8^br
+v125a+8v225a+r8^a+r8^a+r8^a+r
+>v125c8v225cr8^cr8^cr8^cr
+<v125g8v225gr8^gr8^gr8^gr
+>v125c8v225cr8^cr8^cr8^cr
+<v125b8v225br8^br8^br8^br8^
+a+r8^a+r8^a+r8^a+r
+>v125c8v225cr8^cr8^cr8^cr
+v125c8v225cr8^cr8^cr8^cr8^
+<br8^br8^a+r8^a+r8^
+>cr8^<g+r8^>cr8^cr8^
+cr8^cr8^<a+r8^a+r
+;
+#3 r4/ l16 @3 v225
+o3v125d8v225dr8^dr8^fr8^fr
+[v125e8v225er8^er8^er8^er]2
+v125f8v225fr8^fr8^fr8^fr
+v125d8v225dr8^dr8^dr8^dr
+[v125e8v225er8^er8^er8^er]2
+v125f8v225fr8^fr8^fr8^fr
+v125c+8v225c+r8^c+r8^c+r8^c+r
+v125f8v225fr8^fr8^fr8^fr
+v125e8v225er8^er8^er8^er8^
+er8^er8^er8^er
+v125f8v225fr8^fr8^fr8^fr
+v125f+8v225f+r8^f+r8^f+r8^f+r8^
+fr8^fr8^er8^er8^
+fr8^dr8^f+r8^f+r8^
+gr8^gr8^er8^er
+;
+#5 r4/l8 @22 v240
+[o5@22c@22c@22c@22c@22c16^32@22c32@22c@22c@22c16^32@22c32]17

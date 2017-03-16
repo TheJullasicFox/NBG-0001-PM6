@@ -1,0 +1,136 @@
+#amk 2
+#samples
+{
+#optimized
+}
+#instruments
+{
+@5 $8D $4C $00 $07 $00 ;@30
+@14 $8D $4C $00 $07 $00 ;@31
+@13 $CD $60 $00 $03 $00 ;@32
+@11 $CD $90 $00 $03 $00 ;@33
+@6 $9D $2C $00 $03 $00 ;@34
+@24 $FF $FD $00 $07 $00 ;@35
+@21 $FF $FD $00 $07 $00 ;@36
+}
+
+#spc
+{
+#title "Acorn Plains - Overworld Theme"
+#game "New Super Mario Bros. U"
+#author "Nintendo"
+#comment "Ported By DMB"
+}
+
+$EF $1F $10 $10
+$F1 $06 $4C $01
+
+
+#0 o4 t45 w255 l8
+@31 v135 y10 re^16er16f^16e^16drffrgr^4/
+@30 v180 y12 (1)[r16e16g>c<gag+16]g^16f+r16f16ecc+16d4^r^16
+r16c-16cfag16ag^16ed+16rc^16d+d4^d16d+16
+(1)gr16c16dec16e16f16g16a4^16re16f16
+r16g16a>dc<br16aa16bgr16br16>dc+4r4<
+r16g+16ab+ar16bb16>cdc^16r2^4^16<
+@31 y10rg+16ab16>cf^16c^16<ag^16gr2^16g16f+16
+r16e16fg+16a16b+b^16gf+16fe^16r2^4^16
+rg+16ab16>cf^16c^16<a
+gf+16g>c16e<r4^g16f+16
+r16e16fg+16a16>c+d^16<aa16b+b[r2]3r4^
+
+#1 o4 v180 y10 l8
+[r2]4/*5 @30 y12 e16fe^16r*5r16@3y10ag+16gf+*8
+@31 re16fg+16ab+^16a^16fe^16er2^16e16d+16
+r16c+16de16f16ag^16er16dc^16r2^4^16
+re16fg+16ab+^16a^16f
+ed+16ea16>c+<r4^e16d+16
+r16c+16de16f16g+a^16f+f+16ag*3r4^
+
+#2 @34 v200 y10 l8
+o2c^16e^16gf^16e^16eddff+gr4^/
+c^16c16e^16e16fr16e^16e
+d^16f^16f+g^16d^16g
+f^16b+^16fe^16c^16<a
+g+^16>d+^16g+g^16a<g16a16b16>
+c4e4f^16e^16cc4<a+^16a4>g^16d
+d^16d16<a4>d^16e^16f
+e^16b^16ga^16e^16<a>
+d^16f^16a<g^16b^16>d
+c^16g16r4<a+^16>cc16d16e16
+f^16f16c4f^16b+^16f
+e^16e16<g^16g16>c^16ef16g
+f4a^16a16g^16<a+^16b
+b+^16b+16g^16a+^16a+16>dd+16e
+f^16f16c^16c16f^16f<a+16b>
+e^16eeg+16a^16ad+16e
+d^16f^16af+f+16d^16f+
+g4dg<g^16ga16a+
+b^16a+^16agg^16g16a16b16>
+
+
+#3 o4 l8
+@32 v155 y8 re16rer16f16re16re
+rf16r16f16r^16g16r^16@33 v180 y10 gr/
+@32 v155 y8 r16e16re^16r16f16rer16d+
+r16fr4^16g16re16rc16r16
+rf16rf^16r^16e16re
+rd+16rd+16r^16@33 v180 y10 gr16gr
+@32 v155 y8 re16rer16e16rer^16
+rer16er16fr16f16rf
+rf16rfr16f16rf16rf
+[re16]5r16
+rf16rf^16rf16rf^16
+re16re16r@33 v180 y10 fr16gr16
+@32 v155 y8 efr16f16r4fr16f16r4er16e16
+@33 v180 y10 grg16g16r16gr16
+@32 v155 y8 efr16f16r4dr16d16r4er16e16
+@33 v180 y10 grar16gr^16
+@32 v155 y8 ar16a16r4fr16f16r4
+gr16g16r4er16e16r4fr16f16r4f+r16a16rb+16r16
+@33 v180 y10 r4grar16g
+@32 v155 y8 f16e16r16d16rd16r16e16f16r16g16r^16
+@33 v180 y10 gr
+
+#4 o4 y10 l8
+@32 v155 y12 rc16rcr16c16rc16rc
+rd16r16d16r^16c-16r^16@33 v180 y10 dr/
+@32 v155 y12 r16c16rc^16r16c16rcr16c
+r16cr16cre16rc16r<g16r16>
+rc16rc^16r^16c16rc
+rc16rc16r^16@33 v180 y10 dr16dr
+@32 v155 y12 rc16rcr16c16rcr^16
+rcr16cr16cr16c16rc
+rc16rcr16c16rc16rc
+rc16rc16rc+16rc+16rc+16r16
+rd16rd^16rc+16rc+^16
+rc16rc16<g16>r16@33 v180 y10 dr16dr16
+@32 v155 y12 ccr16c16r4cr16c16r4cr16c16
+@33 v180 y10 drd16d16r16dr16
+@32 v155 y12 cdr16d16r4c-r16c-16r4cr16c16
+@33 v180 y10 drdr16dr^16
+@32 v155 y12 fr16f16r4dr16d16r4
+er16e16r4c+r16c+16r4dr16d16r4dr16f+16ra16r16
+@33 v180 y10 r4drdr16dr^16r2^4dr
+
+#5 v220 y10 l16 o3
+@36c@23f@23f@36cc@23f@23f@23f@36c@23f@23f@36c@23f@23f@36c@23f
+[@36c@23f@23f@23f]3@23f@23f@10dd/
+[@36c@23f@23f@23f@36c@23f@23f@23f@36c@23f@23f@23f@36c@23f@23f@23f]18
+[@36c@23f@23f@23f]3@36c@23f@10dd
+
+#6 @35 v155 y10 l16 q2f o4
+
+r8er8er8er8er8er8^
+er8eerer4^8^/
+reer8eerer8eer8e
+r8er8eerer8er8ee
+(2)[r8er8er8er8er8er]
+r8er8er8er8er4(2)
+reereer8er8er8er
+(2)(2)r8er8er4^er8er
+(2)
+(3)[r8er8er8er8er8ee]
+(2)(3)2
+(4)[r8er8er8er8er8^e]
+(2)(4)(2)r8er8^erer8er8er

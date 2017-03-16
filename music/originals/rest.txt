@@ -1,0 +1,119 @@
+#am4
+;-- HEADER AUTOMATICALLY GENERATED --
+$ED $80 $6D $2B 
+$ED $80 $7D $00 
+$F0
+;-- END OF HEADER -------------------
+
+;Yoshi's Island "The Adventure Begins" - Jimmy52905
+
+#0 
+v0c8
+
+@1       q7f v215 y10 w220 t56 l1
+$EF $3F $00 $00
+$F1 $04 $63 $01
+$F2 $D8 $28 $28
+
+>c^^^<a+^a^g+
+v235
+efg2a2a+2>c2o2
+/
+ffddggcc;
+
+#1 r8@1       q7f v215 y7 l16
+
+>
+[r1]9
+g1a1a+2>c2d2e2r8<
+/
+[frfrfrfrfrfrfr8^]2
+[drdrdrdrdrdrdr8^]2
+[grgrgrgrgrgrgr8^]2
+[cr]15;
+
+#2 r8@1       q7f v240 y10 l16
+
+>
+[r1]2
+[g^32r32arg^32r32arg^32r32arg^32r32arg^32r32arg^32r32argr>crergr<]3
+>
+g^32r32f^32r32c^32r32<g+^32r32g^32r32f^32r32c^32r32f^32r32
+o2
+[c1]4
+o4
+/
+[r8crcrcrerererer8^grgrgrbrbrbrbr]3
+r8
+[er]15;
+
+#3 r8@1       q7f v240 y7 l16
+
+[r1]2
+[e^32r32fre^32r32fre^32r32fre^32r32fre^32r32fre^32r32frergr>crer<]3
+>
+d^32r32c^32r32<g+^32r32f^32r32d^32r32c^32r32<g+^32r32>c^32r32
+[r1]4
+/
+[<r8ararar>crcrcrcr8^ererergrgrgrgr]2
+<r8
+[ar]3
+[br]3
+br8^>
+[dr]3
+[fr]3
+fr8^<
+[br]3
+[ar]3
+ar>
+[cr]3
+<
+[br]5;
+
+#4 r8@1       q7f v240 y7 l16
+
+[r1]9
+<
+[c^32r32c32r^32]16
+/
+>
+[<r8frfrfrarararar8^>crcrcrerererer]2
+<r8
+[fr]3
+[ar]3
+ar8^
+[br]3
+>
+[dr]3
+dr8^<
+[gr]3
+[fr]4
+[ar]3
+[gr]5;
+
+#5 r8@3       q7f v225 y5 l16
+
+[r1]12
+o6
+{gfedc<a+ag>edc<a+agfe>c<a+agfedc}
+/
+[r1]8;
+
+#6 r8@0       q7f v000 y10 l1
+
+t56
+[r]2
+[t54r2t58r4t62r2t54r4t48r2]3
+r4
+t44
+r4
+t38
+r4
+t32
+r4
+t48
+[r]4
+/
+t58
+[r]8;
+

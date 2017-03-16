@@ -1,0 +1,16 @@
+#path "herewegoes"
+#samples
+{
+	#optimized
+	"mario_here_we_go.brr"
+}
+
+#instruments
+{
+	"mario_here_we_go.brr"		$FF $E0 $B8 $08 $00
+}
+
+#0 ?0 @30 w255 v255 o3
+c1
+
+#amk 2
