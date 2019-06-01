@@ -1,0 +1,412 @@
+;*******************************************************************
+; Title = Athletic
+; Ported by LadiesMan217
+;*******************************************************************
+; Insert size: 3974 bytes
+; Number of channels: 8
+; Total song length: 1:11
+; Version: AddmusicK 2
+; Samples: Yes (brr)
+;*******************************************************************
+; SPC Generator Info
+#SPC
+{
+	#author "Koji Kondo"
+	#title "Athletic"
+	#game "New Super Mario Bros."
+	#comment "Ported by LadiesMan217"
+}
+;*******************************************************************
+;Special Commands In Song
+#halvetempo
+;*******************************************************************
+;Samples and Info
+#path "NSMB"
+#samples
+{
+	#optimized
+	"14 NSMB.brr"
+	"19 NSMB.brr"
+	"1A NSMB.brr"
+	"1E NSMB.brr"
+	"20 NSMB.brr"
+	"21 NSMB.brr"
+	"22 NSMB.brr"
+	"23 NSMB.brr"
+	"24 NSMB.brr"
+	"25 NSMB.brr"
+	"29 NSMB.brr"
+	"18 NSMB.brr"
+	"2B NSMB.brr"
+}
+#instruments
+{
+	"1A NSMB.brr" $ff $e0 $00 $08 $00		;@30 8-bit square wave
+	"20 NSMB.brr" $fe $f5 $00 $05 $00		;@31 xylophone
+	"18 NSMB.brr" $fe $f4 $00 $07 $75		;@32 bright piano
+	"25 NSMB.brr" $00 $e0 $7f $03 $d0		;@33 snare
+	"14 NSMB.brr" $ff $f1 $00 $01 $75		;@34 acoustic guitar
+	"2B NSMB.brr" $aa $eb $00 $04 $00		;@35 flute
+	"24 NSMB.brr" $8e $f4 $00 $0e $00		;@36 acoustic bass
+	"1E NSMB.brr" $ff $e0 $00 $05 $00		;@37 trumpet
+	"22 NSMB.brr" $00 $e0 $7f $09 $80		;@38 closed hi hat
+	"19 NSMB.brr" $00 $e0 $fb $05 $3a		;@39 BAH!
+	"21 NSMB.brr" $ff $f5 $00 $03 $10		;@40 crash cymbal
+	"23 NSMB.brr" $fd $e0 $00 $02 $9a		;@41 synth brass
+	"29 NSMB.brr" $00 $e0 $7f $02 $00		;@42 sticks
+}
+;*******************************************************************
+;Channel 1
+
+#0
+t92 w150
+$ef $7e $1c $1c
+$f1 $02 $33 $01
+$f5 $43 $2a $04 $ff $16 $f8 $f1 $17
+@36 y10,1,1 v180 $f4 $02 
+(1)[o3 c4 r4. r32 c4 r16.
+c+8. r8.. c+2 r16.
+d4 r4. r32 d4 r16.]
+o3 g8. r8.. g2 r16. (1)
+o3 g8. r8.. < g2 r16.
+(2)[o3 c3 r6 c2
+< g3 r6 g3 r12 > c16 r48
+c3 r6 < g2
+b2 g4 ^6 > d16 r48
+d3 r6 d2
+< g3 r6 g4 ^6 > d16 r48
+d3 r6 < g2
+> c2 < g4 ^6 > c16 r48
+c3 r6 c2
+< g3 r6 g4 ^6 > c16 r48
+c3 r6 e2]
+o3 f2 c4 ^6 c16 r48
+< f3 r6 > c2
+d2 < g+4 ^6 g+16 r48
+g3 r6 b2
+> e2 < a4 ^6 > d16 r48
+d3 r6 < a2
+g2 b4 ^6 b16 r48
+> c2 < g2
+a2 b3 r12 b16 r48 (2)
+o3 f2 c4 ^6 < f16 r48
+f3 r6 > c2
+d2 < g+4 ^6 g+16 r48
+g3 r6 b2
+> e2 < a4 ^6 a16 r48
+> d3 r6 < a2
+g2 b4 ^6 b16 r48
+> c4 c4 < g4 g4
+g+4 a4 a+4 b6 b16 r48
+> c4 < e4 f4 f+4
+g4 g+4 a4 b4
+> d4 < g4 a4 a+4
+b4 > d4 < a4 b4
+> d4 < f4 g4 a4
+b4 b4 g4 g4
+> c4 < g4 a4 b4
+> c4 < e4 f4 f+4
+> c4 c4 < g4 g4
+g+4 a4 b4 g4
+f4 > c4 f4 c4
+< f4 > f4 < a4 > c4
+< f4 g+4 > f4 c4
+< g+4 f4 g+4 > c4
+e4 c4 < g4 b4
+a4 e4 a4 > c+4
+d4 d4 c4 c4
+< b4 g4 a4 b4
+> c4 < e4 f4 f+4
+g4 g4 a4 b4 r192
+
+;*******************************************************************
+;Channel 2
+
+#1
+r8 r32
+[@32 v250 y10 q7f o4 g8 r4. g4 r16.
+g8. r8.. @39 v230 y8 q5f o3 g2 r4
+@32 v250 y10 q7f o4 f8 r4. f4 r16.
+g8. r8.. @39 v230 y8 q5f o3 g2] r4* r3
+[r96 $de $30 $04 $3c v250
+@35 y12 q6f o4 e8 ^32 f16. g8 ^32 a12 r6 e12 r6
+g12 r6 g+16. a2 ^6
+r12 e8 ^32 f16. g8 ^32 a8 r8 b12 r6
+b12 r6 a+16. a2
+r4 d8 ^32 e16. f8 ^32 g12 r6 d16 r8.
+f16 r8. f+16. g2 ^6
+r12 d8 ^32 e16. f8 ^32 g12 r6 a12 r6
+a12 r6 g+16. g2
+r4 e8 ^32 f16. g8 r32 a8 r8 e12 r6
+g16 r8. g+16. a2 ^32
+r8 e16. f8 r8 g6 a6 r24 a+8
+a2 ^8. r8.. g+16.
+a8 ^32 b16. > c16. r16 d12 r6 < a16. b8 ^32 > c16.
+d2 c8 r8 d12 r6
+e8 r8 e16. r16 c8 r8 < g8 r8 b16 r32
+b3 r16 r96 a2 g+16.
+a8 ^32 b16. > c8 ^32 d12 r6 < a12 r96 b8 r32 > c12 r96
+d2 e2 c1 $df
+@39 v230 y8 q5f o3 g4 r8 r32 g2] r3
+* r16. $de $30 $04 $3c
+@30 v170 y13 q7f o4 g8 r32 a24 r6 r24 d+12 r96 e24 r6 r24 < g8 r32 a24 r6 r24
+d+12 r96 e24 r6 r24 a8 r32 g24 r24 r96 e8 r32 c24 r24 r96
+< a+8 r32 b24 r24 r96 > g8 r32 < a+24 r24 
+r96 b8 r32 > g24 r24 r96 < a+8 r32 b24 r24 r96 > g2 ^6 r3
+> f8 r32 g24 r6 r24 c+12 r96 d24 r6 r24 < a+8 r32 b24 r6 r24
+f12 r96 g24 r6 r24 b8 r32 g24 r24 r96 f8 r32 d24 r24 r96
+d+8 r32 e24 r24 r96 a8 r32 d+24 r24 r96 
+e8 r32 a24 r24 r96 d+8 r32 e24 r24 r96 a2 ^6 r3
+> g8 r32 a24 r6 r24 d+12 r96 e24 r6 r24 c8 r32 d24 r6 r24
+< g12 r96 a24 r6 r24 d+8 r32 e24 r24 r96 g8 r32 e24 r24 r96
+> > c8 r32 d24 r6 r24 < g+12 r96 a24 r6 r24 e8 r32 f2 ^6 r3 r16.
+> c8 r32 d24 r6 r24 < g+12 r96 a24 r6 r24 > c8 r32 d24 r6 r24
+< g+12 r96 a24 r6 r24 > c8 r32 d24 r24 r96 < g+8 r32 a24 r24 r96
+> c8 r32 d24 r6 r24 < g12 r96 a24 r6 r24 > c8 r32 d24 r6 r24
+< g12 r96 a24 r6 r24 > c8 r32 d24 r24 r96 < g8 r32 a24 r24 r96
+d+8 r32 e24 r24 r96 a8 r32 d+24 r24 r96 e8 r32 a24 r24 r96 d+8 r32 e24 r24 r96
+a8 r32 d+24 r24 r96 e8 r32 g24 r24 r96 d+8 r32 e24 r24 r96 c8 r32 < a24 r24 r96
+> c1 ^12 r2.. r32.
+
+;*******************************************************************
+;Channel 3
+
+#2
+r8 r32
+[@32 v250 y10 q7f o4 e12 r4 r6 e4 r16.
+e4 r8 r32 @39 v230 y8 q5f o3 e2 r4
+@32 v250 y10 q7f o4 d12 r4 r6 d4 r16.
+d4 r8 r32 @39 v230 y8 q5f o3 d2] r4* r1
+[r4 $de $30 $04 $3c v200
+@41 y9 q7f o4 e12 r6 e16. e2 ^6
+r4. r3 r32 f12 r6
+f12 r6 f16. f2 ^32
+r2.. < b16 r8.
+> d16 r8. d12 r96 d2 ^6
+r4. r3 r32 f12 r6
+f12 r6 e16. e2
+r2.... r8.
+e16 r8. e16. e2
+r2 e6 e8 r12 e12 r24
+f2 ^8. r2....
+f12 r96 f12 r16 r96 g+16.
+g+2 g+8 r8 b12 r6
+> c8 r8 c16. r16 < g8 r8 e8 r8 g16 r32
+g3 r16 r96 e2 r2.
+f12 r96 f8 r32 a12 r96
+a2 b2 g1 $df
+@39 v230 y8 q5f o3 d4 r8 r32 d2] r1
+* r16. $de $30 $04 $3c
+@30 v170 q7f o4 y13 e8 r32 d+24 r6 r24 < 
+b12 r96 > c24 r6 r24 < e8 r32 d+24 r6 r24
+< b12 r96 > c24 r6 r24 e8 r32 d+24 r24 r96 c8 r32 < a24 r24 r96
+f+8 r32 g24 r24 r96 > d8 r32 < f+24 r24 r96 
+g8 r32 > d24 r24 r96 < f+8 r32 g24 r24 r96 > d2 ^6 r3
+> d8 r32 e24 r6 r24 < a+12 r96 b24 r6 r24 g8 r32 g24 r6 r24
+d12 r96 e24 r6 r24 g8 r32 e24 r24 r96 d8 r32 < b24 r24 r96
+b8 r32 > c24 r24 r96 e8 r32 < b24 r24 r96 
+b8 r32 > e24 r24 r96 < b8 r32 b24 r24 r96 > e2 ^6 r3
+> e8 r32 d+24 r6 r24 < b12 r96 > c24 r6 r24 < g8 r32 a24 r6 r24
+e12 r96 d+24 r6 r24 < b8 r32 > c24 r24 r96 e8 r32 < b24 r24 r96
+> > a8 r32 a24 r6 r24 e12 r96 f24 r6 r24 < b8 r32 > c2 ^6 r3 r16.
+a8 r32 a24 r6 r24 e12 r96 f24 r6 r24 a8 r32 a24 r6 r24
+e12 r96 f24 r6 r24 a8 r32 a24 r24 r96 e8 r32 f24 r24 r96
+g8 r32 a24 r6 r24 e12 r96 f24 r6 r24 g8 r32 a24 r6 r24
+e12 r96 f24 r6 r24 g8 r32 a24 r24 r96 e8 r32 f24 r24 r96
+< b8 r32 > c24 r24 r96 e8 r32 < b24 r24 r96 > 
+c8 r32 e24 r24 r96 < b8 r32 > c24 r24 r96
+e8 r32 < b24 r24 r96 > c8 r32 e24 r24 r96 < 
+b8 r32 > c24 r24 r96 < f8 r32 f24 r24 r96
+e1 ^12
+r2..
+r32.
+
+;*******************************************************************
+;Channel 4
+
+#3
+@32 v250 y10 r8 r32
+[q7f o4 c12 r4 r6 c6 ^96 r6
+c+4 r8 r32 c+2 r4
+< a12 r4 r6 a6 ^96 r6
+b4 r8 r32 b2] r4
+* r12 v120 @42 y8 o5 q5f 
+[[
+(3)[a16 r8. a16 r12 r48 a16 r8. a16 r48 a16 r12 r48 a16 r8.]
+(4)[a16 r48 a16 r8. a16 r12 r48 a16 r8. a16 r48] (3)
+(5)[a16 r48 a16 r8. a16 r12 r48 a16 r4 r48] 
+]]9
+(3)(4)(3)
+a16 r48 a16 r8. a16 r12 r48 a16 r4 r32
+@34 v125 y6 q7f o5
+(6)[e6 r12 e4 ^32 r8 a8 r8 g6
+r12 g6 r12 g6 r12 g6 r12 g16.]
+(7)[f6 r12 f4 ^32 r8 a8 r8 g6
+r12 g6 r12 g6 r12 g6 r12 g16.]
+(7)
+(6)2
+f6 r12 f4 ^32 r8 > c8 r8 < a6
+r12 a6 r12 a6 r12 a6 r12 a16.
+g+6 r12 g+4 ^32 r8 > c8 r8 < g+6
+r12 g+6 r12 g+6 r12 g+6 r12 g+16.
+g6 r12 g4 ^32 r8 b8 r8 g6
+r12 g6 r12 g6 r12 g6 r12 g16.
+a6 r12 a4 ^32 r8 a8 r8 g6
+r12 g6 r12 g6 r12 g6 r12 g16.
+e6 r12 e4 ^32 r8 e8 r8 g6
+r12 g6 r12 g6 r12 g6 r12 g12 ^64
+
+;*******************************************************************
+;Channel 5
+
+#4
+@32 v250 y10 q7f o3 (1)
+g8. r8.. g2 r16.
+(1)
+g8. r8.. g2
+[r2]43
+r16. $de $c0 $04 $2c
+@37 v150 y7  q6f
+o3 a4 ^4 $dd $30 $20 $9f ^1
+r2 f2 $de $80 $04 $2c
+< b2 $dd $30 $20 $96 ^2 $dd $00 $30 $97 $de $c0 $04 $2c
+r2 > b4 ^4 $dd $00 $20 $a1 ^4 $dd $00 $20 $a0 ^4 $dd $00 $20 $a1 ^8 r4.
+r2 g2
+e4 $dd $30 $18 $9b ^2 $dd $00 $60 $9c $de $c0 $04 $2c ^4
+r2 a4 ^4 $dd $30 $20 $a0 ^1  $de $80 $04 $2c
+f1
+c1 $de $c0 $04 $2c
+g+1 $dd $48 $18 $9f ^1 $de $80 $04 $2c
+e1 e1 e1 $df
+c1 r2 ^6
+r3
+@34 v125 y6 q7f o4
+(8)[g6 r12 g4 ^32 r8 b8 r8 b6
+r12 b6 r12 a8 r8 a6 r12 a16.]
+(8)
+g6 r12 g4 ^32 r8 b8 r8 b6
+r12 b6 r12 b8 r8 b6 r12 b16.
+g6 r12 g4 ^32 r8 > c8 r8 c6
+r12 c6 r12 < a8 r8 a6 r12 a16.
+(8)
+f6 r12 f4 ^32 r8 > c8 r8 c6
+r12 c6 r12 c8 r8 c6 r12 c16.
+c6 r12 c4 ^32 r8 c8 r8 c6
+r12 c6 r12 c8 r8 c6 r12 c16.
+< b6 r12 b4 ^32 r8 b8 r8 > c+6
+r12 c+6 r12 c+8 r8 c+6 r12 c+16.
+< a6 r12 a4 ^32 r8 a8 r8 b6
+r12 b6 r12 b8 r8 b6 r12 b16.
+g6 r12 g4 ^32 r8 g8 r8 b6
+r12 b6 r12 b8 r8 b6 r12 b12 ^64
+
+;*******************************************************************
+;Channel 6
+
+#5
+v180 @31 y13 q5f r8 r32 o5
+(9)[e16 r32 g16 r16. > c16 r32 < a16 r16. g16 r32 d+16 r16. e16 r8.]
+(10)[g16 r32 > c+16 r16. < g16 r32 a16 r16. > c+16 r32 < a16 r16. g16 r8.
+f16 r32 a16 r16. > d16 r32 c16 r16. < a16 r32 f16 r16. a16 r32]
+> f16 r16. < b16 r32 > d16 r16. < f16 r32 b16 r16. a+16 r32 a16 r16. g16 r8.
+(9) (10)
+> d16 r16. < f16 r32 b16 r16. f16 r32 a16 r16. b16 r32 a16 r16. g16 r8. (9)
+(11)[g16 r32 > c16 r16. < g16 r32 a16 r16. g16 r32 d+16 r16. e16 r8.
+e16 r32 g16 r16. > c16 r32 < a16 r16. g16 r32 d+16 r16. e16 r32]
+(12)[b16 r16. d16 r32 a16 r16. d16 r32 a16 r16. b16 r32 a16 r16. f16 r8.
+d16 r32 f16 r16. b16 r32 a16 r16. f16 r32 c+16 r16. d16 r8.
+f16 r32 b16 r16. f16 r32 a16 r16. f16 r32 c+16 r16. d16 r8.
+d16 r32 f16 r16. b16 r32 a16 r16. f16 r32 c+16 r16. d16 r32
+> c16 r16. < e16 r32 g16 r16. e16 r32 a16 r16. > c16 r32 < a16 r16. g16 r8.]
+(9) (11)
+(13)[> c16 r16. < f16 r32 a16 r16. f16 
+r32 a16 r16. > c16 r32 < a16 r16. g+16 r8.
+f16 r32 > c16 r16. < a16 r32 > c16 r16. d16 r32 c16 r16. < a16 r8.
+a16 r32 > c16 r16. < f16 r32 g+16 r16. > c16 r32 < g+16 r16. f16 r8.
+e16 r32 b16 r16. g16 r32 b16 r16. > d16 r32 < b16 r16. g16 r8.
+e16 r32 a16 r16. e16 r32 g16 r16. > c+16 r32 < g16 r16. e16 r8.
+d16 r32 f16 r16. > c16 r32 < a16 r16. f16 r32 c+16 r16. d16 r32
+a16 r16. d16 r32 f16 r16. d16 r32 f16 r16. b16 r32 f16 r16. d16 r8.] (9)
+(14)[g16 r32 b16 r16. g16 r32 a16 r16. g16 r32 d+16 r16. e16] r8.
+(9) (11) (12) (9) (11) (13) (9) (14) r1 r1 r1 r32 
+v250 @39 v230 y8 q5f o3
+[g4 r8 r32 g3 ^96
+r1 r1 r1 r4]2 [r2]10
+a4 r2. g4 r2. e4 r1 r2. r192
+
+;*******************************************************************
+;Channel 7
+
+#6
+[[
+(15)[o4 @40 v255 y8 q7f g4 < @38 y13 q1b g+4 r4 g+4 r4]
+(16)[o3 @38 v255 y13 q1b g+4 r4 g+4]
+]]4
+(15)
+[[
+(16) r4
+]]18
+(16)
+(15)
+[[
+(16) r4
+]]18
+(16)
+(15)
+(16) r4
+(16)
+@39 v230 y8 q5f o3 d4 @38 v255 y13 q1b g+8 ^32 
+@39 v230 y8 q5f o3 d3 ^96 @38 v255 y13 q1b g+4 r4
+[[
+(16) r4
+]]2
+(16)
+@39 v230 y8 q5f o3 e4 @38 v255 y13 q1b g+8 ^32 
+@39 v230 y8 q5f o3 e3 ^96 @38 v255 y13 q1b g+4 r4
+[[
+(16) r4
+]]7
+(16)
+@39 v230 y8 q5f o3 f4 (16)
+@39 v230 y8 q5f o3 e4 (16)
+@39 v230 y8 q5f o3 c4 (16) r4
+(16) r192
+
+;*******************************************************************
+;Channel 8
+
+#7
+@33 y11 v200 q5f o4
+[d4 r2 d4 ^192 r6 d16 ^64 d4 d6 ^96 d4 d16 ^96]4
+d4 r1.
+r6 r64 d3
+r4 r6 d3
+[r2]9
+r4. r64 d3
+[r2]18
+r3
+r16..
+d16 ^192 d4 r2 r6 r64 
+d16 ^192 d4 r6 r64 d4 ^192 r16 d4 r1
+[r2]11
+r4
+r6
+r64
+d4 r1..
+d4 ^96 r1
+[r2]7
+r8...
+d16 ^96 d4
+r2. d4
+r2 r6 r64 d4 r2
+d4 r1
+d4 r1
+r4
+d16 ^64 d6 ^192 d16 ^64 d12 d6 d6 ^192 d12
+r8... 
+[c+4 r2.]19
+c+4 r2 r192
+
+;*******************************************************************
+
+#amk 2

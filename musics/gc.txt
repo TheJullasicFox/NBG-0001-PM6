@@ -1,0 +1,119 @@
+﻿#am4
+;-- HEADER AUTOMATICALLY GENERATED --
+$ED $80 $6D $2B 
+$ED $80 $7D $00 
+$F0
+;-- END OF HEADER -------------------
+
+;Super Paper Mario - "Gap of Crag" - SNN
+;1327 bytes
+
+#0 @8	q7F v190 y11 w200 t48 o3
+
+o3 l16
+dd l8 d 
+[rd]12
+r2^4 r / v190 d [rd]95 r
+
+#1 
+
+[r1]4
+r8 
+/ $ED $3A $ED o4 @9 v184 l16
+>
+[ar8ar8gr8fr8gr8^]3
+dr2^4^8^
+[ar8ar8gr8fr8gr8^]3
+arar>crcr<drfrgr
+ara4^8gd<a4^8
+>ceg4^8f<ag2
+o5c4^8<agd4^8
+gaf1
+>a4^8gd<a4^8
+>ceg4^8f<ag2
+o6c4^8<agd4^8
+gaf2^4^8 [r1]12 r2
+
+#2 @23 v220 l16
+
+[ccr2^4^8]4
+cc / r2^4^8 [ccr2^4^8]6 [ccr8]4
+[crcccrcrcccrcrcrcrcccrcrcccrcr8^]3
+crcccrcrcccrcrcrcrcccrcrcccrcr4^
+[crcr8^cr8cr8cr8^]2 crcr8^cr8cr8cr
+ccccccccr2^8 [crcr8^cr8cr8cr8^]3
+crcr8^cr8ccccc [r1]2 r4
+
+#3 @12 v192 l16
+
+<
+cco3
+[cccccccccccrcr8^]3 [cr8^]4
+/ @12 v192 o3
+cccccr [cccccccr]4
+cccccccr8^ [cr8^]4
+cccccr [cccccccr]7
+[crcccrcrcccrcrcr
+crcccrcrcccrcr8^]3
+crcccrcrcccrcrcr
+crcccrcrcccrcr4^
+[cccrcrcccrcrcr8^]2
+cccrcrcccrcrcr
+ggcccgcrcccrcrcr8^
+cccrcccrcccrcc
+[crcccrcccrcccrcc]2
+crcccr8ccrcccccc
+[r1]2 r4
+
+#4 @6 v170 l16
+
+$ED $09 $ED
+o4
+r8<
+[ar8ar8gr8fr8gr8^]3
+dr2^4^8^
+/ @6 v170 $ED $09 $ED
+o2
+>
+[ar8ar8gr8fr8gr8^]3
+dr2^4^8^
+[ar8ar8gr8fr8gr8^]3
+arar>crcr<drfrgr
+ara4^8gd<a4^8
+>ceg4^8f<ag2
+o3c4^8<agd4^8
+gaf1
+>a4^8gd<a4^8
+>ceg4^8f<ag2
+o5c4^8<agd4^8
+gaf1
+o2 l8
+dagrgr16fr16gadr2^4
+dagrgr16fr16gaar2^4
+[dagrgr16fr16gadr2^4]2
+r1^2
+
+#5  l16
+
+[r1]4 r8 / [r1]8 
+o5 $ED $68 $ED @11 v190 p40,30
+<a4^8gd<a4^8
+>ceg4^8f<ag2
+o5c4^8<agd4^8
+gaf1
+>a4^8gd<a4^8
+>ceg4^8f<ag2
+o6c4^8<agd4^8
+gaf2^4^8
+[r1]8 r2
+
+#7 l16
+
+[r1]4 r8 / @13 v190 [r1]8
+d4^8r8>d4 [rd]6
+r8 < [dr]4
+dr2^8^ > f1
+r8d4^8r8 < d4
+[rd]6 [r1]3 r2
+[o2a2o4d8r1^4^8]4 r2
+

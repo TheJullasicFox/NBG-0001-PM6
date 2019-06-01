@@ -1,0 +1,164 @@
+#amk 2
+
+#samples
+{
+	#optimized
+	"TimpaniCoolmario.brr"
+	"Final Fantasy 6/French Horn.brr"
+	"Final Fantasy 6/Snare.brr"
+	"Final Fantasy 6/Strings.brr"
+	"Final Fantasy 6/Trumpet.brr"
+}
+
+#spc
+{
+	#title "Attack of the Airships"
+	#game "Super Mario Galaxy"
+	#author "Koji Kondo, Mahito Yokota"
+}
+
+#instruments
+{
+	"Final Fantasy 6/French Horn.brr" $FF $E0 $BA $04 $81				;@30
+	"Final Fantasy 6/Trumpet.brr" $FF $E0 $DE $06 $02					;@31
+	"Final Fantasy 6/Strings.brr" $FF $F5 $FF $03 $15					;@32
+	"TimpaniCoolmario.brr" $FF $E0 $00 $07 $00									;@33
+	@4 $8A $F3 $BA $03 $00												;@34
+	"Final Fantasy 6/Strings.brr" $FB $F3 $FF $03 $15					;@35
+	@1 $FB $F3 $FF $03 $00												;@36
+	"Final Fantasy 6/Strings.brr" $FB $F5 $FF $03 $15					;@37
+	"Final Fantasy 6/Snare.brr"	$8F $F5 $00 $07 $93						;@38
+}
+
+$EF $FF $25 $25
+$F1 $07 $65 $01
+$F5 $0B $21 $28 $28 $18 $FC $FB $F7
+
+#0 w160 t50
+p0,0
+r1r1r1r1
+/@30 o4 v200 y10 q7F l1
+p40,7,20(1)[v200c>c<b$E8 $40 $9A^]2
+p0,0
+@35(4)[o3l8y9v200d4d4ddv170{de-e-}v200d4d4ddv170{de-e-}
+v210a4a4aav190{a>cc}<v210a4a4aav190{a>cc}]
+@30 o4 v200 y10 q7F l1
+r1r1
+p40,7,20
+(1)2
+@35(4)
+@31 v250 o4 l8 q7F y10
+p24,10,24
+g2^g>c^16<b-16>e-1
+d2^de^16d16g1
+[r1]2
+
+#1
+p0,0
+r1r1r1r1
+/@30 o3 v170 y6 q7F l1
+p40,7,20
+(2)[v170b->b-a$E8 $40 $80^]2
+v200 y11 q7F o3 l8 @35
+p0,0
+(5)[o3v200c4c4ccv170{cd-d-}v200c4c4ccv170{cd-d-}
+v210d4d4ddv190{de-e-}v210d4d4ddv190{de-e-}]
+@30 o3 v170 y6 q7F l1
+r1r1
+p40,7,20
+(2)2
+v180 y11 q7F o3 l8 @35
+(5)
+@31 v180 o4 l8 q7F y11
+p24,10,24
+f2^fg^16f16b-1
+a2^a>c^16<b-16>e-1
+[r1]2
+
+#2
+r1r1r1r1
+/@30 o3 v170 y14 q7F l1
+p40,7,20
+(3)[v170f>fe$E8 $40 $80^]2
+[r1]4
+@30 o3 v170 y14 q7F l1
+r1r1
+p40,7,20
+(3)2
+@32 o2 v250 y12 q7F l8
+p0,0
+o4[y10@37v120g4g4ggv100{gb-b-}v120g4g4ggv100{gb-b-}
+>v130d4d4ddv110{dff}v130d4d4ddv110{dff}]
+@31 v220 y10 q7F o3 l4
+d^^8r8ga-1
+a+1a-1
+[r1]2
+
+#3 @32 o2 v250 y12 q7F l8
+(7)[g4g4{ggg}g4g4{ggg}ggg4]2
+/(7)4
+o3(6)[y10@35v200g4g4ggv170{gb-b-}v200g4g4ggv170{gb-b-}
+v210>d4d4ddv190{dff}v210d4d4ddv190{dff}]
+@32 o2 v250 y12 q7F l8
+(7)5
+o3(6)
+@31 v220 y10 q7F o3 l4
+g^^8r8b-f1
+f1>c1
+@32 o2 v250 y12 q7F l8
+(7)
+
+#4 @33 o2 v220 y10 q7F l8 h1
+(8)[g4g4{ggg}g4g4{ggg}ggg4]2
+/(8)4
+(10)[o3c4c4{ccc}c4c4{ccc}ccc4
+h3c4c4{ccc}c4c4{ccc}ccc4]
+@33 o2 v240 y10 q7F l8 h1
+(8)5
+(10)
+y10h1v255o2g4g4{ggg}g4f4{fff}fff4
+b-4b-4{b-b-b-}b-4a-4{a-a-a-}a-a-a-4
+@33 o2 v220 y10 q7F l8 h1
+(8)
+
+#5
+[r1]4
+/[r1]8
+[r1]3
+r2 @38 v50 q7F l32 o3
+$E8 $50 $A0
+eeeeeeeeeeeeeeee
+[v160l8e4e4{eee}e4e4{eee}eev130l32eeeeeeee]7
+[v220l8e4e4{eee}e4e4{eee}eev180l32eeeeeeee]2
+[r1]2
+
+#6 (9)[@34 o2 v140 y8 q7F l8
+g4g4{ggg}g4g4{ggg}ggg4]2
+/(9)4
+(11)[@36 o1 v255 y4 q7F l8
+c4c4cc{cd-d-}c4c4cc{cd-d-}
+d4d4dd{de-e-}d4d4dd{de-e-}]
+@34 o2 v140 y8 q7F l8
+(9)5
+@36 o1 v255 y4 q7F l8
+(11)
+o5@37v150l8y10
+[g4g4gg{ggg}]4
+@34 o2 v140 y8 q7F l8
+(9)
+
+#7
+[r1]4
+/[r1]7
+@36 o1 v255 y16 q7F l8
+r2r4{ga-b-}
+(12)[o2c4c4cc{cd-d-}c4c4cc{cd-d-}
+d4d4dd{de-e-}d4d4dd{de-e-}]
+[r1]2
+[r1]7
+@36 o1 v255 y16 q7F l8
+r2r4{ga-b-}
+(12)
+y10o2y16g4g4{ggg}g4f4{fff}fff4
+b-4b-4{b-b-b-}b-4a-4{a-a-a-}a-a-a-4
+[r1]2
